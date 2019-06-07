@@ -1,0 +1,188 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Team 11 67-475">
+  <meta name="Ali's Guide to NYC">
+  <title>Soho</title>
+
+  <!-- %%%% STYLES %%%% -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Dragula -->
+  <link rel="stylesheet" href="css/dragula.min.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400i&display=swap" rel="stylesheet">
+
+
+  <!-- General App Styles -->
+  <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+
+  <!-- %%%% END STYLES %%%% -->
+
+  <!-- %%%% SCRIPTS %%%% -->
+
+  <!-- *all scripts must be loaded locally* -->
+
+  <!-- jquery -->
+  <script src="./js/jquery.js"></script>
+
+  <!-- Boostrap -->
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+
+  <!-- General App Scripts -->
+  <script src="./js/menu.js"></script>
+
+  <!-- %%%% END SCRIPTS %%%% -->
+
+</head>
+
+<body class="soho-background">
+
+  <!-- <div class="menu">
+    <button class="btn btn-default">Menu</button>
+  </div> -->
+
+  <div class="container m-0 p-0">
+    <div class="row soho p-3">
+      <div class="col-1 d-flex align-items-center justify-content-left navbar-col">
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="./index.html">Home</a>
+            <a class="soho" href="./soho.html">Soho</a>
+            <a class="greenwhich" href="#">Greenwhich Village</a>
+            <a class="east" href="#">East Village</a>
+            <a class="midtown" href="#">Midtown</a>
+            <a class="upper" href="#">Upper Sides</a>
+            <a class="brooklyn" href="#">Brooklyn</a>
+          </div>
+        </div>
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <button class="navbar-toggler toggler-example" type="button" onclick="openNav()">
+          <span><i class="fas fa-bars fa-2x"></i>
+          </span>
+        </button>
+      </div>
+      <div class="col-11 d-flex align-items-center justify-content-center">
+        <h1 class="page-title mr-5">Soho & Chinatown</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col d-flex align-items-center justify-content-center">
+        <!-- <div class="tagline">
+            Shop Till You Drop
+          </div> -->
+      </div>
+    </div>
+    <div class="row pt-5 pl-5 pr-5 card-row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/soho/eileen.jpg" alt="tray of cheesecakes">
+          <div class="card-body pt-1 d-flex flex-column">
+            <h5 class="card-title">Eileen's Special Cheesecakes</h5>
+            <p class="card-text">"Very homemade, you can see them making them in the back if you stretch your neck
+              enough, and they’re tiny so if you’re really hungry you can eat three. Pretty much the cupcake version of
+              cheesecake and they have many flavors (all of which I’ve heard are very good)"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/jUn2UtFjAyuGHcZ2A" target="_blank"> 17 Cleveland Place</a>
+            </div>
+            <a href="https://www.eileenscheesecake.com/" target="_blank" class="btn btn-block sohoBtn soho">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/soho/barpatea.449215"
+            alt="bubble teas with whipped cream outside the store front.">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Bar Pa Tea</h5>
+            <p class="card-text">"The best bubble tea soft serve."</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/RGxMxcCTH7XqfZyM7" target="_blank"> 85 Kenmare Street</a>
+            </div>
+            <a href="https://www.barpatea.com/" target="_blank" class="btn btn-block sohoBtn soho">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/soho/vanessas.jpg" alt="dumplings with sauce arranged on a plate">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Vanessa's Dumpling House</h5>
+            <p class="card-text">"Known for its very very cheap and good dumplings, but wait to eat them because they’re
+              very hot!"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/fQ5Wx9N1s6cKMcT58" target="_blank"> 118 Eldridge Street</a>
+            </div>
+            <a href="https://vanessas.com/" target="_blank" class="btn btn-block sohoBtn soho">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-2 pl-5 pr-5 card-row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/soho/canal.jpg" alt="busy scene of restuarants and shops">
+          <div class="card-body pt-1 d-flex flex-column">
+            <h5 class="card-title">Canal Street Market</h5>
+            <p class="card-text">"Nothing to do with Chinatown, but cool stuff to look at and some food."</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/jUn2UtFjAyuGHcZ2A" target="_blank"> 17 Cleveland Place</a>
+            </div>
+            <a href="https://www.eileenscheesecake.com/" target="_blank" class="btn btn-block sohoBtn soho">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/soho/blacktap.jpg" alt="Three fancy milkshakes">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Black Tap Milkshakes</h5>
+            <p class="card-text">"Outrageous milkshakes that you have to pay lots of $$ for and wait in line for."</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/p5EQbKeCseAyqT39A" target="_blank"> 529 Broome Street</a>
+            </div>
+            <a href="https://blacktapnyc.com/" target="_blank" class="btn btn-block sohoBtn soho">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/soho/chinatown.jpg" alt="Assortment of novelty items all with smiley faces on them.">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Chinatown Market</h5>
+            <p class="card-text">"It’s the least chinese thing in chinatown and they have cool novelty stuff."</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              Pop Up Shop (locations may vary)
+            </div>
+            <a href="https://thechinatownmarket.com/" target="_blank" class="btn btn-block sohoBtn soho">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
