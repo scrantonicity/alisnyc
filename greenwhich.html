@@ -1,0 +1,214 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Team 11 67-475">
+  <meta name="Ali's Guide to NYC">
+  <title>Greenwhich Village</title>
+
+  <!-- %%%% STYLES %%%% -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Dragula -->
+  <link rel="stylesheet" href="css/dragula.min.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400i&display=swap" rel="stylesheet">
+
+
+  <!-- General App Styles -->
+  <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+
+  <!-- %%%% END STYLES %%%% -->
+
+  <!-- %%%% SCRIPTS %%%% -->
+
+  <!-- *all scripts must be loaded locally* -->
+
+  <!-- jquery -->
+  <script src="./js/jquery.js"></script>
+
+  <!-- Boostrap -->
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+
+  <!-- General App Scripts -->
+  <script src="./js/menu.js"></script>
+
+  <!-- %%%% END SCRIPTS %%%% -->
+
+</head>
+
+<body class="greenwhich-background">
+
+  <div class="container m-0 p-0">
+    <div class="row greenwhich p-3">
+      <div class="col-1 d-flex align-items-center justify-content-left navbar-col">
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="./index.html">Home</a>
+            <a class="soho" href="./soho.html">Soho</a>
+            <a class="greenwhich" href="./greenwhich.html">Greenwhich Village</a>
+            <a class="east" href="./east.html">East Village</a>
+            <a class="midtown" href="./midtown.html">Midtown</a>
+            <a class="upper" href=./upper.html>Upper Sides</a> <a class="brooklyn" href="./brooklyn.html">Brooklyn</a>
+          </div>
+        </div>
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <button class="navbar-toggler toggler-example" type="button" onclick="openNav()">
+          <span><i class="fas fa-bars fa-2x"></i>
+          </span>
+        </button>
+      </div>
+      <div class="col-11 d-flex align-items-center justify-content-center">
+        <h1 class="page-title mr-5">Greenwhich Village</h1>
+      </div>
+    </div>
+    <div class="row pt-5 pl-5 pr-5 card-row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/greenwhich/pommesfrites.jpg"
+            alt="cone of french fries with cool dipping sauces">
+          <div class="card-body pt-1 d-flex flex-column">
+            <h5 class="card-title">Pommes Frites</h5>
+            <p class="card-text">"Mcdougal street is great for drunk food, definitely check out pommes frites."</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/Y55ajEpBYW24547z7" target="_blank"> 128 Macdougal Street</a>
+            </div>
+            <a href="https://www.pommesfritesnyc.com/" target="_blank" class="btn btn-block greenwhichBtn greenwhich">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/greenwhich/west3rd.jpg"
+            alt="empty bar with red couches and books on walls">
+          <div class="card-body pt-1">
+            <h5 class="card-title">West 3rd Common</h5>
+            <p class="card-text">"I like west 3rd common for their happy hour until 8. On Sundays, they have happy hour
+              all day."</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/WaEE6rk7hueoqLYq9" target="_blank"> 1 West 3rd Street</a>
+            </div>
+            <a href="https://www.west3rdcommon.com/" target="_blank" class="btn btn-block greenwhichBtn greenwhich">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/greenwhich/do.jpg"
+            alt="colorful cups full of cookie dought with various toppings.">
+          <div class="card-body pt-1">
+            <h5 class="card-title">dō</h5>
+            <p class="card-text">"Edible cookie dough if you're into it (prepare to fight white girls and their moms)"
+            </p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/u27iLxk4LNvpdNUv9" target="_blank"> 550 LaGuardia Place</a>
+            </div>
+            <a href="https://cookiedonyc.com/" target="_blank" class="btn btn-block greenwhichBtn greenwhich">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-2 pl-5 pr-5 card-row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/greenwhich/milk.jpg"
+            alt="ice cream in a cup with corn flake sprinkles">
+          <div class="card-body pt-1 d-flex flex-column">
+            <h5 class="card-title">Milk Bar</h5>
+            <p class="card-text">"Go here for cereal milk ice cream (the ice cream tastes like the milk after you eat
+              cereal)"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/CokkXwGss17C6FRu9" target="_blank"> 74 Christopher Street</a>
+            </div>
+            <a href="https://www.milkbarstore.com/" target="_blank" class="btn btn-block greenwhichBtn greenwhich">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/greenwhich/insomnia.jpg"
+            alt="a box with so so many cookies crammed into it">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Insomnia Cookies</h5>
+            <p class="card-text">"Warm cookies that are mass produced"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/FTTWSB2J1EdLtoJz5" target="_blank"> 116 Macdougal Street</a>
+            </div>
+            <a href="https://insomniacookies.com/" target="_blank" class="btn btn-block greenwhichBtn greenwhich">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/greenwhich/kikkerland.jpg"
+            alt="store window with varous goofy things in the window.">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Kikkerland</h5>
+            <p class="card-text">"Kikkerland store is GREAT for souviners"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/azgbQMcPi3X9ZYWF8" target="_blank"> 493 6th Ave</a>
+            </div>
+            <a href="https://kikkerlandbbbdesignproject.com" target="_blank"
+              class="btn btn-block greenwhichBtn greenwhich">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-2 pl-5 pr-5 card-row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/greenwhich/strand.jpg"
+            alt="overhead shot of isles and isles of books">
+          <div class="card-body pt-1 d-flex flex-column">
+            <h5 class="card-title">Strand Bookstore</h5>
+            <p class="card-text">"The Strand is a MUST if you are literate!!! They have lots and lots of books and cool stuff too. You can find everything there."</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/oAPwxeqXXMvbh2jQ7" target="_blank"> 828 Broadway</a>
+            </div>
+            <a href="https://www.strandbooks.com/" target="_blank" class="btn btn-block greenwhichBtn greenwhich">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/greenwhich/pearlriver.jpg"
+            alt="store with asian goods and red lanturns hanging from the ceiling.">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Pearl River Mart</h5>
+            <p class="card-text">"I like the pearl river market in Chelsea market — it used to be in soho but gentrification happened."</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/odEnkmWkEQGthtCP9" target="_blank"> 75 9th Avenue</a>
+            </div>
+            <a href="https://pearlriver.com/" target="_blank" class="btn btn-block greenwhichBtn greenwhich">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
