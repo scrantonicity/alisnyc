@@ -1,0 +1,266 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author">
+  <meta name="Ali's Guide to NYC">
+  <title>East Village</title>
+
+  <!-- %%%% STYLES %%%% -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Dragula -->
+  <link rel="stylesheet" href="css/dragula.min.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400i&display=swap" rel="stylesheet">
+
+
+  <!-- General App Styles -->
+  <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+
+  <!-- %%%% END STYLES %%%% -->
+
+  <!-- %%%% SCRIPTS %%%% -->
+
+  <!-- *all scripts must be loaded locally* -->
+
+  <!-- jquery -->
+  <script src="./js/jquery.js"></script>
+
+  <!-- Boostrap -->
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+
+  <!-- General App Scripts -->
+  <script src="./js/menu.js"></script>
+
+  <!-- %%%% END SCRIPTS %%%% -->
+
+</head>
+
+<body class="east-background">
+
+  <div class="container m-0 p-0">
+    <div class="row east p-3">
+      <div class="col-1 d-flex align-items-center justify-content-left navbar-col">
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="./index.html">Home</a>
+            <a class="soho" href="./soho.html">Soho</a>
+            <a class="greenwhich" href="./greenwhich.html">Greenwhich Village</a>
+            <a class="east" href="./east.html">East Village</a>
+            <a class="midtown" href="./midtown.html">Midtown</a>
+            <a class="upper" href=./upper.html>Upper Sides</a> <a class="brooklyn" href="./brooklyn.html">Brooklyn</a>
+          </div>
+        </div>
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <button class="navbar-toggler toggler-example" type="button" onclick="openNav()">
+          <span><i class="fas fa-bars fa-2x"></i>
+          </span>
+        </button>
+      </div>
+      <div class="col-11 d-flex align-items-center justify-content-center">
+        <h1 class="page-title mr-5">East Village</h1>
+      </div>
+    </div>
+    <div class="row pt-5 pl-5 pr-5 card-row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/east/chicka.jpg"
+            alt="3 churro cones with various ice cream and toppings">
+          <div class="card-body pt-1 d-flex flex-column">
+            <h5 class="card-title">ChickaLicious Dessert Bar</h5>
+            <p class="card-text">"Chikalicious if you want a churro cone with ice cream and/or a cronut (check their
+              hours before you go because they aren’t open half the week for some reason)"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/WJzjVU9ZV7mTaULY9" target="_blank"> 203 E 10th Street</a>
+            </div>
+            <a href="https://www.chickalicious.com/" target="_blank" class="btn btn-block eastBtn east">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/east/212.jpg"
+            alt="looking at the bar enterance. Black awning and sign with name.">
+          <div class="card-body pt-1">
+            <h5 class="card-title">212 Hisae's</h5>
+            <p class="card-text">"Cheap Thai food and really cheap drinks all night: 212 Hisae’s has a small menu but a
+              very large menu of $5 drinks all night long. Prepare to stand in line if you get there after 7 and sit
+              squished next to lots of people"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/jVGTCBnxWwwVdERc7" target="_blank"> 212 E 9th Street</a>
+            </div>
+            <a href="https://www.yelp.com/biz/212-hisaes-new-york" target="_blank"
+              class="btn btn-block eastBtn east">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/east/crocodile.jpg"
+            alt="moody but colorful bar, think 80's neon, with people">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Crocodile Lounge</h5>
+            <p class="card-text">"Crocodile lounge on 14th and really Far East gives you a pizza for every drink (I
+              think for happy hour?? Not sure double check on their website) (editor's note: you get a free pizza with a
+              drink anytime :D )"
+            </p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/XPzDgAbte71msXCTA" target="_blank"> 325 E 14th Street</a>
+            </div>
+            <a href="https://crocodileloungenyc.com/" target="_blank" class="btn btn-block eastBtn east">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-2 pl-5 pr-5 card-row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/east/sanmarzano.jpg"
+            alt="overhead shot of three bowls of different pastas with bread and chili flakes on the side">
+          <div class="card-body pt-1 d-flex flex-column">
+            <h5 class="card-title">San Marzano</h5>
+            <p class="card-text">"really really good handmade pasta but on the weekends you’ll wait like an hour for a
+              table (also really cheap) AND if you’re feeling fun you can do the $10 unlimited mimosas for brunch (do
+              not underestimate the amount of hungover millennials you’ll have to fight for a table)"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/1DkSv8xg6jG7j5Vi8" target="_blank"> 117 2nd Avenue</a>
+            </div>
+            <a href="https://www.sanmarzanonyc.com/" target="_blank" class="btn btn-block eastBtn east">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/east/veselka.jpg"
+            alt="a box with so so many cookies crammed into it">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Veselka</h5>
+            <p class="card-text">"If you’re hungry and it’s 3am: go to veselka!! Their pierogies are really really good
+              and they’re open 24/7. Also they have good food in general. Their prices can add up but it’s not like a
+              $$$ meal or anything"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/ymgV1Rc19po3h75x5" target="_blank"> 144 2nd Avenue</a>
+            </div>
+            <a href="https://veselka.com/" target="_blank" class="btn btn-block eastBtn east">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/east/smac.jpg"
+            alt="4 individual frying pans filled with gooey mac and cheese crusted on top">
+          <div class="card-body pt-1">
+            <h5 class="card-title">S'mac</h5>
+            <p class="card-text">"Mac and cheese that's customizable and lots of yum! (get the right size -- you will
+              regret the medium size after 15 minutes)"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/7Mo38cQESYv21Knt8" target="_blank"> 197 1st Avenue</a>
+            </div>
+            <a href="https://eatsmac.com" target="_blank" class="btn btn-block eastBtn east">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-2 pl-5 pr-5 card-row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/east/sundaes.jpg" alt="3 ice cream cones displayed in holders">
+          <div class="card-body pt-1 d-flex flex-column">
+            <h5 class="card-title">Sundaes and Cones</h5>
+            <p class="card-text">"Cool ice cream flavors like corn, lavender, and ginger."</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/Wos251dv5Syeb9Dw5" target="_blank"> 95 E 10th Street</a>
+            </div>
+            <a href="https://www.sundaesandcones.com/" target="_blank" class="btn btn-block eastBtn east">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/east/sunrise.jpg" alt="small store with japanese foods all over">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Sunrise Mart</h5>
+            <p class="card-text">"Great for any japanese groceries."</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/G9admjzf5vSaMnAD8" target="_blank"> 4 Stuyvesant Street</a>
+            </div>
+            <a href="https://newyork.seriouseats.com/2013/01/sunrise-mart-japanese-market-east-village.html"
+              target="_blank" class="btn btn-block eastBtn east">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/east/bao.jpg" alt="soup dumplings in little tin foil dishes">
+          <div class="card-body pt-1">
+            <h5 class="card-title">The Bao</h5>
+            <p class="card-text">"Specialty soup dumplings like giant and mini dessert ones (not the cheapest)"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/PCUKJNkswLVcD3gh8" target="_blank"> 13 St Marks Place</a>
+            </div>
+            <a href="https://thebaonewyorkcity.com" target="_blank" class="btn btn-block eastBtn east">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-2 pl-5 pr-5 card-row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/east/spot.jpg" alt="fancy presentation of a red dessert ball with a potted plant on the plate with it.">
+          <div class="card-body pt-1 d-flex flex-column">
+            <h5 class="card-title">Spot Dessert Bar</h5>
+            <p class="card-text">"Crazy and a little pricy desserts"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/L5nmPRkVigMvufSk8" target="_blank"> 13 St Marks Place</a>
+            </div>
+            <a href="https://www.spotdessertbar.com/" target="_blank" class="btn btn-block eastBtn east">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/east/buffalo.jpg" alt="inside of store with lots of racks of clothes and shoes">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Buffalo Exchange</h5>
+            <p class="card-text">"Great for thrift shopping."</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/G55Mik56aNgMZxqN7" target="_blank"> 332 E 11th Street</a>
+            </div>
+            <a href="https://buffaloexchange.com"
+              target="_blank" class="btn btn-block eastBtn east">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

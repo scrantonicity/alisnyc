@@ -23,6 +23,11 @@ body {
   background-size: 1500px;
 }
 
+.east-background {
+  background: url(../assets/east/east.jpeg) no-repeat center center fixed;
+  background-size: 1400px;
+}
+
 .container {
   min-width: 1;
 }
