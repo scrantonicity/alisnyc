@@ -1,0 +1,130 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Team 11 67-475">
+  <meta name="Ali's Guide to NYC">
+  <title>Midtown</title>
+
+  <!-- %%%% STYLES %%%% -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Dragula -->
+  <link rel="stylesheet" href="css/dragula.min.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400i&display=swap" rel="stylesheet">
+
+
+  <!-- General App Styles -->
+  <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+
+  <!-- %%%% END STYLES %%%% -->
+
+  <!-- %%%% SCRIPTS %%%% -->
+
+  <!-- *all scripts must be loaded locally* -->
+
+  <!-- jquery -->
+  <script src="./js/jquery.js"></script>
+
+  <!-- Boostrap -->
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+
+  <!-- General App Scripts -->
+  <script src="./js/menu.js"></script>
+
+  <!-- %%%% END SCRIPTS %%%% -->
+
+</head>
+
+<body class="midtown-background">
+
+  <div class="container m-0 p-0">
+    <div class="row midtown p-3">
+      <div class="col-1 d-flex align-items-center justify-content-left navbar-col">
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="./index.html">Home</a>
+            <a class="soho" href="./soho.html">Soho</a>
+            <a class="greenwhich" href="./greenwhich.html">Greenwhich Village</a>
+            <a class="east" href="./east.html">East Village</a>
+            <a class="midtown" href="./midtown.html">Midtown</a>
+            <a class="upper" href=./upper.html>Upper Sides</a>
+            <a class="brooklyn" href="./brooklyn.html">Brooklyn</a>
+          </div>
+        </div>
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <button class="navbar-toggler toggler-example" type="button" onclick="openNav()">
+          <span><i class="fas fa-bars fa-2x"></i>
+          </span>
+        </button>
+      </div>
+      <div class="col-11 d-flex align-items-center justify-content-center">
+        <h1 class="page-title mr-5">Midtown</h1>
+      </div>
+    </div>
+    <div class="row pt-5 pl-5 pr-5 card-row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/midtown/eataly.jpg" alt="large open store with various tables of italian foods">
+          <div class="card-body pt-1 d-flex flex-column">
+            <h5 class="card-title">Eataly</h5>
+            <p class="card-text">"Get the cotten candy grapes (try one and pretend like you're buying but don't get tricked into buying expensive pizza!)"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/5h7JcQsrc1nBDATY6" target="_blank"> 200 5th Avenue</a>
+            </div>
+            <a href="https://www.eataly.com/" target="_blank" class="btn btn-block midtownBtn midtown">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/midtown/kino.jpg"
+            alt="various stuffed animals hanging off shelves of books">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Kinokuniya Bookstore</h5>
+            <p class="card-text">"A Japanese bookstore that has cool stuff downstairs, books on the main level, and comic stuff/games on the top level"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/h6sSyNXbEcZzB9ez8" target="_blank"> 1073 6th Avenue</a>
+            </div>
+            <a href="https://usa.kinokuniya.com/" target="_blank" class="btn btn-block midtownBtn midtown">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/midtown/bryant.jpg" alt="city park surrounded by scrscrapers with lots of people sitting in the grass.">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Bryant Park</h5>
+            <p class="card-text">"Cool and they have movies in the evenings"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="" target="_blank"> 476 5th Avenue</a>
+            </div>
+            <a href="https://bryantpark.com/" target="_blank" class="btn btn-block midtownBtn midtown">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

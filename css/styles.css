@@ -28,6 +28,11 @@ body {
   background-size: 1400px;
 }
 
+.midtown-background{
+  background: url(../assets/midtown/midtown1.jpeg) no-repeat center center fixed;
+  background-size: 1600px;
+}
+
 .container {
   min-width: 1;
 }
