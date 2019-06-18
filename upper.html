@@ -1,0 +1,130 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Team 11 67-475">
+  <meta name="Ali's Guide to NYC">
+  <title>Upper Sides</title>
+
+  <!-- %%%% STYLES %%%% -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Dragula -->
+  <link rel="stylesheet" href="css/dragula.min.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400i&display=swap" rel="stylesheet">
+
+
+  <!-- General App Styles -->
+  <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+
+  <!-- %%%% END STYLES %%%% -->
+
+  <!-- %%%% SCRIPTS %%%% -->
+
+  <!-- *all scripts must be loaded locally* -->
+
+  <!-- jquery -->
+  <script src="./js/jquery.js"></script>
+
+  <!-- Boostrap -->
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+
+  <!-- General App Scripts -->
+  <script src="./js/menu.js"></script>
+
+  <!-- %%%% END SCRIPTS %%%% -->
+
+</head>
+
+<body class="upper-background">
+
+  <div class="container m-0 p-0">
+    <div class="row upper p-3">
+      <div class="col-1 d-flex align-items-center justify-content-left navbar-col">
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="./index.html">Home</a>
+            <a class="soho" href="./soho.html">Soho</a>
+            <a class="greenwhich" href="./greenwhich.html">Greenwhich Village</a>
+            <a class="east" href="./east.html">East Village</a>
+            <a class="midtown" href="./midtown.html">Midtown</a>
+            <a class="upper" href=./upper.html>Upper Sides</a>
+            <a class="brooklyn" href="./brooklyn.html">Brooklyn</a>
+          </div>
+        </div>
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <button class="navbar-toggler toggler-example" type="button" onclick="openNav()">
+          <span><i class="fas fa-bars fa-2x"></i>
+          </span>
+        </button>
+      </div>
+      <div class="col-11 d-flex align-items-center justify-content-center">
+        <h1 class="page-title mr-5">Upper West & East Sides</h1>
+      </div>
+    </div>
+    <div class="row pt-5 pl-5 pr-5 card-row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/upper/levain.jpg" alt="Stacks of alternating colored giant cookies">
+          <div class="card-body pt-1 d-flex flex-column">
+            <h5 class="card-title">Levain Bakery</h5>
+            <p class="card-text">"Go here for giant cookies (get one per two people)"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/bNLLF1X34qR2i1g87" target="_blank"> 167 W 74th Street</a>
+            </div>
+            <a href="https://www.levainbakery.com/" target="_blank" class="btn btn-block upperBtn upper">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/upper/raku.jpg"
+            alt="bowl of asian vegatables and noodles">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Raku-It's Japanese II</h5>
+            <p class="card-text">"Good cheapish sushi"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/uZcfULHtGvdZ8SjaA" target="_blank"> 57 W 76th Street</a>
+            </div>
+            <a href="https://www.raku-itsjapaneseii.com/" target="_blank" class="btn btn-block upperBtn upper">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/upper/cooper.jpg" alt="fancy brick building with ivy basking in the sunshine with people sitting around outside it">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Cooper Hewitt</h5>
+            <p class="card-text">"An awesome must see museum for design stuff - they have donation based admission on Saturdays and it’s a super old New York house so that’s awesome."</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/BP6PvSQbXbL5SEqA7" target="_blank"> 2 E 91st Street</a>
+            </div>
+            <a href="https://cooperhewitt.com/" target="_blank" class="btn btn-block upperBtn upper">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

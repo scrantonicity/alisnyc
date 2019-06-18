@@ -1,0 +1,130 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Team 11 67-475">
+  <meta name="Ali's Guide to NYC">
+  <title>Brooklyn</title>
+
+  <!-- %%%% STYLES %%%% -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Dragula -->
+  <link rel="stylesheet" href="css/dragula.min.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400i&display=swap" rel="stylesheet">
+
+
+  <!-- General App Styles -->
+  <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+
+  <!-- %%%% END STYLES %%%% -->
+
+  <!-- %%%% SCRIPTS %%%% -->
+
+  <!-- *all scripts must be loaded locally* -->
+
+  <!-- jquery -->
+  <script src="./js/jquery.js"></script>
+
+  <!-- Boostrap -->
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+
+  <!-- General App Scripts -->
+  <script src="./js/menu.js"></script>
+
+  <!-- %%%% END SCRIPTS %%%% -->
+
+</head>
+
+<body class="brooklyn-background">
+
+  <div class="container m-0 p-0">
+    <div class="row brooklyn p-3">
+      <div class="col-1 d-flex align-items-center justify-content-left navbar-col">
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="./index.html">Home</a>
+            <a class="soho" href="./soho.html">Soho</a>
+            <a class="greenwhich" href="./greenwhich.html">Greenwhich Village</a>
+            <a class="east" href="./east.html">East Village</a>
+            <a class="midtown" href="./midtown.html">Midtown</a>
+            <a class="upper" href=./upper.html>Upper Sides</a>
+            <a class="brooklyn" href="./brooklyn.html">Brooklyn</a>
+          </div>
+        </div>
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <button class="navbar-toggler toggler-example" type="button" onclick="openNav()">
+          <span><i class="fas fa-bars fa-2x"></i>
+          </span>
+        </button>
+      </div>
+      <div class="col-11 d-flex align-items-center justify-content-center">
+        <h1 class="page-title mr-5">Brooklyn</h1>
+      </div>
+    </div>
+    <div class="row pt-5 pl-5 pr-5 card-row">
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/brooklyn/juniors.jpg" alt="4 different types of cheesecakes on a cake platter">
+          <div class="card-body pt-1 d-flex flex-column">
+            <h5 class="card-title">Junior's Restaurant and Bakery</h5>
+            <p class="card-text">"Think Cheesecake Factory but before the Cheesecake Factory. They also have a location in Times Square but it’s better to avoid the frequent tourists"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/WThZgi1sU5Z5uwJi9" target="_blank"> 368 Flatbush Ave</a>
+            </div>
+            <a href="https://www.juniorscheesecake.com/" target="_blank" class="btn btn-block brooklynBtn brooklyn">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/brooklyn/dekalb.jpg"
+            alt="lots of people wandering around and some standing in front of a neon sign for a creamery.">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Dekalb Market Hall</h5>
+            <p class="card-text">"Good market hall for food. (check out the flying tiger there) (also go to the amplehills creamery and at least get testers of the flavors)"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/noSG8X6McSAbo4QRA" target="_blank"> 445 Albee Square W</a>
+            </div>
+            <a href="https://www.dekalbmarkethall.com" target="_blank" class="btn btn-block brooklynBtn brooklyn">Explore</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img class="card-img-top p-2" src="assets/brooklyn/smorgasburg.jpg" alt="crowded market overlooking the east river and the manhattan skyline">
+          <div class="card-body pt-1">
+            <h5 class="card-title">Smorgasburg</h5>
+            <p class="card-text">"Outdoor food market on the weekends (watch hipsters)"</p>
+            <div class="card-info">
+              <i class="fas fa-map-marker-alt pb-4"></i>
+              <a href="https://goo.gl/maps/AYtguNAqQeFgvrwU8" target="_blank"> 90 Kent Avenue</a>
+            </div>
+            <a href="https://cooperhewitt.com/" target="_blank" class="btn btn-block brooklynBtn brooklyn">Explore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

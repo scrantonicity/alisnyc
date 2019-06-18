@@ -33,6 +33,16 @@ body {
   background-size: 1600px;
 }
 
+.upper-background {
+  background: url(../assets/upper/upper.jpg) no-repeat center center fixed;
+  background-size: 1600px;
+}
+
+.brooklyn-background {
+  background: url(../assets/brooklyn/brooklyn.jpeg) no-repeat center center fixed;
+  background-size: 1500px;
+}
+
 .container {
   min-width: 1;
 }
