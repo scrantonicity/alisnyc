@@ -12,6 +12,7 @@ body {
 
 .container {
   max-width: none;
+  overflow-x: hidden;
 }
 
 .soho-background {
@@ -21,7 +22,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; */
-  overflow-x: hidden;
 }
 
 .soho-background::before {
