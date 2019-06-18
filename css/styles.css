@@ -15,15 +15,6 @@ body {
   overflow-x: hidden;
 }
 
-.soho-background {
-  /* background-image: url(../assets/soho/soho.jpg);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; */
-}
-
 .soho-background::before {
   content: ' ';
   display: block;
@@ -40,49 +31,84 @@ body {
   z-index: -10; 
 }
 
-.greenwhich-background {
-  background-image: url(../assets/greenwhich/greenwhich.jpg);
-  height: 100%;
+.greenwhich-background::before {
+  content: ' ';
+  display: block;
+  background-image: url('../assets/greenwhich/greenwhich.jpg');
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: -10; 
 }
 
-.east-background {
-  background-image: url(../assets/east/east.jpeg);
-  height: 100%;
+.east-background::before {
+  content: ' ';
+  display: block;
+  background-image: url('../assets/east/east.jpeg');
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: -10; 
 }
 
-.midtown-background{
-  background-image: url(../assets/midtown/midtown.jpeg);
-  height: 100%;
+.midtown-background::before {
+  content: ' ';
+  display: block;
+  background-image: url('../assets/midtown/midtown.jpeg');
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: -10; 
 }
 
-.upper-background {
-  background-image: url(../assets/upper/upper.jpg);
-  height: 100%;
+.upper-background::before {
+  content: ' ';
+  display: block;
+  background-image: url('../assets/upper/upper.jpg');
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: -10; 
 }
 
-.brooklyn-background {
-  background-image: url(../assets/brooklyn/brooklyn.jpeg);
-  height: 100%;
+.brooklyn-background::before {
+  content: ' ';
+  display: block;
+  background-image: url('../assets/brooklyn/brooklyn.jpeg');
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: -10; 
 }
 
 .container {
