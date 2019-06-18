@@ -275,8 +275,8 @@ h1 {
 /* Position the close button (top right corner) */
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  top: 15px;
+  right: 40px;
   font-size: 60px;
 }
 
@@ -362,7 +362,6 @@ h1 {
 }
 
 .card-info a{
-  font-family: 'Roboto Condensed', sans-serif;
   font-size: 14pt;
 }
 
