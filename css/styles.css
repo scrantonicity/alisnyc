@@ -376,7 +376,8 @@ h1 {
   font-size: 14pt;
 }
 
-.card-info a{
+.card-info{ 
+  font-style: italic;
   font-size: 14pt;
 }
 
