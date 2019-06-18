@@ -15,7 +15,11 @@ body {
 }
 
 .soho-background {
-  background: url(../assets/soho/soho.jpg) no-repeat center center fixed;
+  background-image: url(../assets/soho/soho.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .greenwhich-background {
@@ -141,30 +145,6 @@ h1 {
   color: #fff;
 }
 
-/* .soho {
-  background-color: #FF9279
-}
-
-.greenwhich {
-  background-color: #FFE68C
-}
-
-.east {
-  background-color: #88ED87
-}
-
-.midtown {
-  background-color: #62C2E8
-}
-
-.upper {
-  background-color: #BB6DDF
-}
-
-.brooklyn {
-  background-color: #FF6E99
-} */
-
 /* Menu */
 .menu {
   position: -webkit-sticky; /* Safari */
@@ -278,10 +258,6 @@ h1 {
   color: #fff;
   /* position: absolute; */
   font-size: 3vw;
-}
-
-.navbar-col {
-  /* position: absolute; */
 }
 
 /* cards */
