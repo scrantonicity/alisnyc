@@ -23,28 +23,43 @@ body {
 }
 
 .greenwhich-background {
-  background: url(../assets/greenwhich/greenwhich.jpg) no-repeat center center fixed;
-  background-size: 1500px;
+  background-image: url(../assets/greenwhich/greenwhich.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .east-background {
-  background: url(../assets/east/east.jpeg) no-repeat center center fixed;
-  background-size: 1400px;
+  background-image: url(../assets/east/east.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .midtown-background{
-  background: url(../assets/midtown/midtown1.jpeg) no-repeat center center fixed;
-  background-size: 1600px;
+  background-image: url(../assets/midtown/midtown.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .upper-background {
-  background: url(../assets/upper/upper.jpg) no-repeat center center fixed;
-  background-size: 1600px;
+  background-image: url(../assets/upper/upper.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .brooklyn-background {
-  background: url(../assets/brooklyn/brooklyn.jpeg) no-repeat center center fixed;
-  background-size: 1500px;
+  background-image: url(../assets/brooklyn/brooklyn.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
