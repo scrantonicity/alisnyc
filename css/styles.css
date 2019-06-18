@@ -2,7 +2,6 @@
 
 body {
   font-family: 'Lobster', cursive;
-  background: url(https://source.unsplash.com/collection/638440/) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,6 +12,22 @@ body {
 .container {
   max-width: none;
   overflow-x: hidden;
+}
+
+.home-background::before {
+  content: ' ';
+  display: block;
+  background-image: url(https://source.unsplash.com/collection/638440/);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: -10; 
 }
 
 .soho-background::before {
